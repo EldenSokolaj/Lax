@@ -1,0 +1,5 @@
+write "Hello world!", 10;
+while:
+  print;
+  movr 1;
+end;
