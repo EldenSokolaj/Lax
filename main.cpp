@@ -25,7 +25,7 @@ int main(int argc, char *argv[]){
     int line = 1;
     do{
         in >> noskipws >> buf;
-        if(buf != ';' && buf != ':'){
+        if( (buf != ';' && buf != ':') || in.eof()){
             if(buf == '\n'){
                 line++;
             } else if(buf != '\t' && !(data.length() == 0 && buf == ' ')){
