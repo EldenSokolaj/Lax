@@ -1,0 +1,2 @@
+# Lax
+A compiled language
