@@ -1,5 +1,9 @@
 # Lax
 
+Usage:
+    
+    Pass as command line arguments the name of a language file and the name for an output file
+
 Operations:
     
     add     (adds value to cell)
