@@ -4,11 +4,21 @@
 #include "libs/functions.h"
 using namespace std;
 
-int main(){
+int main(int argc, char *argv[]){
+
+    if(argc != 3){
+        cout << "Usage: inputfile outputfile" << endl;
+        return -1;
+    }
+
+    string infile = string(argv[1]);
+    string outfile = string(argv[2]);
+
+
     log func{};
 
-    ifstream in{"test.code"};
-    ofstream out{"test.bf"};
+    ifstream in{infile.c_str()};
+    ofstream out{outfile.c_str()};
     char buf;
     string scope = "";
     string data = "";
