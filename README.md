@@ -1,6 +1,7 @@
 # Lax
 
 Operations:
+    
     add     (adds value to cell)
     sub     (subtracts value from cell)
     movr    (shift active cell to the right)
@@ -17,9 +18,11 @@ Operations:
     call    (call function)
 
 Constants:
+    
     Either direct values (such as 2) or character values (such as 'b' with the single quotes)
 
 Math:
+    
     Allows addition, subtraction, mutliplication, and devision
     Example:
         12 + 'a'
@@ -39,7 +42,8 @@ Math:
             add 3 * -5 + 2  [fails]
 
 Strings:
-    Used by the write function
+    
+    Used by the write operation
     There are long string using ""
     Characters using ''
     And direct values using just the number
@@ -50,6 +54,7 @@ Strings:
         Creates this c style string "Hello \"world\"!\n"
 
 Functions:
+    
     Definition is done with "def name"
     Non-recursive (think of it more like an inline or macro)
     Example:
