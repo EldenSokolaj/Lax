@@ -1,0 +1,55 @@
+def show:
+    while:
+        print;
+        movr 1;
+    end;
+ret;
+
+movr 1;
+
+write "How long is your name? ";
+call show;
+
+while:
+    movl 1;
+end;
+
+movr 1;
+
+get;
+sub '0';
+
+movr 1;
+
+set 10;
+print;
+set 0;
+
+movl 1;
+
+while:
+    while:
+        movr 1;
+    end;
+
+    get;
+    
+    movr 1;
+    set 0;
+    movl 1;
+
+    while:
+        movl 1;
+    end;
+    
+    movr 1;
+
+    dec;
+end;
+
+set 10;
+call show;
+set '!';
+print;
+set 10;
+print;
