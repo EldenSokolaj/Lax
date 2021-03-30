@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
-#include "parser.h"
-#include "functions.h"
+#include "libs/parser.h"
+#include "libs/functions.h"
 using namespace std;
 
 int main(){
