@@ -30,6 +30,7 @@ string eval_string_value(string in){
             i += 2;
         } else {
             ret += (char)stoi(in.substr(i));
+            in = in.substr(in.find(' '));
         }
     }
     
